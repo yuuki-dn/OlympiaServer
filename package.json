@@ -1,0 +1,19 @@
+{
+  "name": "olympia_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "bun install",
+    "start": "bun run src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.5.0",
+    "elysia": "^1.1.7",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
